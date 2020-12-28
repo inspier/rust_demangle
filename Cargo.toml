@@ -1,0 +1,16 @@
+[package]
+name = "rust_demangle"
+version = "0.1.0"
+authors = ["inspier <devdevin541@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rust_demangle"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustc-demangle = "0.1.18"
+
+[dependencies.pyo3]
+version = "0.13.0"
+features = ["extension-module"]
