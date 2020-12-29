@@ -3,6 +3,8 @@ name = "rust_demangle"
 version = "0.1.0"
 authors = ["inspier <devdevin541@gmail.com>"]
 edition = "2018"
+description = "A Python wrapper around rustc-demangle."
+license = "MIT"
 
 [lib]
 name = "rust_demangle"
